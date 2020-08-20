@@ -1,10 +1,6 @@
 #!/bin/bash
 # Install docker
-<<<<<<< HEAD
-sudo apt update -y && sudo apt install -y docker.io
-=======
 curl -Ls get.docker.com | sh
->>>>>>> upstream/k8s
 sudo usermod -aG docker ubuntu
 
 # Create directory to be served
